@@ -12,6 +12,10 @@ header {
     transform: translateY(-10px);
 }
 
+#about img {
+    border: 5px solid #e60000; /* Optional: Add a border around the image */
+}
+
 blockquote {
     background-color: #f8f9fa;
     border-left: 5px solid #e60000;
@@ -25,4 +29,14 @@ blockquote p {
 
 footer {
     background-color: #333;
+}
+
+footer a {
+    font-size: 1.2rem;
+    margin-left: 10px;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #ff4d4d; /* Change icon color on hover */
 }
