@@ -20,6 +20,28 @@ header {
     transform: translateY(-10px);
 }
 
+#services .card {
+    transition: transform 0.3s ease;
+}
+
+#services .card:hover {
+    transform: translateY(-10px);
+}
+
+#services .card .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+#services .card i {
+    color: #ff4d4d; /* Icon color */
+}
+
+#services .card-text {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
 #about img {
     border: 5px solid #e60000; /* Optional: Add a border around the image */
 }
