@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand, .nav-link {
+    color: white !important;
+}
+.navbar-brand {
+    font-family:'Times New Roman', Times, serif;
+    font-size: xx-large;
+}
+.nav-link:hover {
+    text-decoration: underline;
+}
+.brand-mi {
+    color: #FFCB05;
+    font-weight: bolder;
+}
+
+header {
+    background: url('./header.jpg') no-repeat center center;
+    background-size: cover;
+    color: white;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+header p {
+    font-size: 1.5rem;
+}
+
+section {
+    padding: 40px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.icon {
+    font-size: 2rem;
+    color: black !important;
+    margin-bottom: 10px;
+}
+
+.btn-primary {
+    background-image: linear-gradient(to right, #2C5364 0%, #203A43 51%, #0F2027 100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    border-radius: 10px;
+    border-style: none;
+}
+.btn-primary:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.social-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 15px;
+}
+.social-links li a {
+    color: white;
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+}
+.social-links li a:hover {
+    color: #aaa;
+}
